@@ -22,6 +22,6 @@ def get_redis_cache_metrics():
     }
 
     # Log the metrics
-    logger.info(f"Redis cache metrics: {metrics}")
+    logger.error(f"Redis cache metrics: {metrics}")
 
     return metrics
